@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="ISO-8859-1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deposit Form</title>
+    <link rel="stylesheet" href="deposit_css.css">
+    <link rel="stylesheet" href="bankheaderfot.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="logo">Global Bank</h1>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="bankhome.html" class="active">Home</a></li>
+                    <li><a href="bankabout.html">About Us</a></li>
+                    <li><a href="bankhome.html#services-section">Services</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#" class="btn-login">Log Out</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <form action="deposit" class="form-container">
+            <p class="d">DEPOSIT</p>
+            <div class="form-group">
+                <label for="username">User Name</label>
+                <input type="text" id="username" name="username" placeholder="Enter your username" required>
+            </div>
+            <div class="form-group">
+                <label for="pin">Pin</label>
+                <input type="password" id="pin" name="pin" placeholder="Enter your pin" required>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    </main>
+    
+    <footer class="footer">
+        <p>&copy; 2024 Global Bank. All rights reserved.</p>
+        <p>123 Bank Street, Financial City, India</p>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Change PIN</title>
+    <link rel="stylesheet" type="text/css" href="pinchange_css.css">
+    <link rel="stylesheet" type="text/css" href="bankheaderfot.css">
+
+</head>
+<body>
+
+    <header class="header">
+        <div class="container">
+            <h1 class="logo">Global Bank</h1>
+            <nav class="navbar">
+                <ul>
+                     <li><a href="bankhome.html" class="active">Home</a></li>
+                    <li><a href="bankabout.html">About Us</a></li>
+                    <li><a href="bankhome.html#services-section">Services</a></li>
+                    <li><a href="bankabout.html#contact">Contact</a></li>
+                    <li><a href="login.html" class="btn-login">Log Out</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="pin-container">
+        <form action="pinchange" class="form-container">
+            <h2>PIN GENERATION</h2>
+            
+            <div class="form-group">
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" placeholder="Enter Username" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="cpin">Current PIN</label>
+                <input type="password" id="cpin" name="cpin"  placeholder="Enter Current Pin">
+            </div>
+            
+            <div class="form-group">
+                <label for="npin">New PIN</label>
+                <input type="password" id="npin" name="npin" placeholder="Enter New Pin" required>
+            </div>
+            
+            <button type="submit" class="submit-button">Update</button>
+        </form>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Global Bank. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

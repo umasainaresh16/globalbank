@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Error</title>
+    <link rel="stylesheet" href="bankheaderfot.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            background-color: #f8f9fa;
+        }
+
+        /* Flexbox to center error container */
+        main {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-grow: 1;
+            margin-top: 80px; /* Added margin to account for fixed header height */
+            padding: 20px;
+        }
+
+        .container-error {
+            text-align: center;
+            padding: 20px;
+            border: 1px solid #ccc;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            max-width: 600px;
+            width: 100%; /* To ensure it's responsive */
+        }
+
+        .container-error h1 {
+            color: #ff4d4d;
+            font-size: 2em;
+        }
+
+        .container-error p {
+            font-size: 18px;
+            color: #333;
+            margin: 15px 0;
+        }
+
+        .container-error a {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            color: white;
+            background-color: #007bff;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .container-error a:hover {
+            background-color: #0056b3;
+        }
+
+        /* Footer adjustments */
+        footer {
+            margin-top: 30px;
+            text-align: center;
+            padding: 15px 0;
+            background-color: #0055a5;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <header class="header">
+        <div class="container">
+            <h1 class="logo">Global Bank</h1>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="bankhome.html" class="active">Home</a></li>
+                    <li><a href="bankabout.html">About Us</a></li>
+                    <li><a href="bankhome.html#services-section">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="logout.html" class="btn-login">Log Out</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="container-error">
+            <h1>Error!</h1>
+            <p>Username or current PIN mismatched. Please go back and try again.</p>
+            <a href="pinchange.html">Go Back</a>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2024 Global Bank. All rights reserved.</p>
+        <p>123 Bank Street, Financial City, India</p>
+    </footer>
+
+</body>
+</html>

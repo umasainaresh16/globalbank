@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Error</title>
+    <link rel="stylesheet" href="bankheaderfot.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f7f7f7;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .invalid-container {
+            background-color: #fff;
+            padding: 2em;
+            margin-top: 180px;
+            margin-bottom: 190px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .invalid-container h2 {
+            color: #ff4d4d;
+            margin-bottom: 1em;
+        }
+        .invalid-container p {
+            color: #333;
+            margin-bottom: 1.5em;
+        }
+        a {
+            text-decoration: none;
+            color: #007bff;
+            padding: 0.5em 1em;
+            border: 1px solid #007bff;
+            border-radius: 5px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+        a:hover {
+            background-color: #007bff;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <header class="header">
+        <div class="container">
+            <h1 class="logo">Global Bank</h1>
+    </header>
+
+    <div class="invalid-container">
+        <h2>Incorrect Username or Password</h2>
+        <p>Sorry, the username or password you entered is incorrect. Please try again.</p>
+        <a href="login.html">Go to Login Page</a>
+    </div>
+
+    <footer class="footer">
+        <p>&copy; 2024 Global Bank. All rights reserved.</p>
+        <p>123 Bank Street, Financial City, India</p>
+    </footer>
+</body>
+</html>

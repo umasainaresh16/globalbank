@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deposit Money</title>
+    <link rel="stylesheet" href="moneydeposit_css.css">
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.deposit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.form-container {
+    background-color: white;
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    text-align: center;
+}
+
+.deposit h2 {
+    color: #007bff;
+    margin-bottom: 1.5em;
+}
+
+.form-group {
+    margin-bottom: 1.5em;
+}
+
+input {
+    width: 90%;
+    padding: 0.8em;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 1em;
+}
+
+.submit-button {
+    background-color: #28a745; /* Green color */
+    color: white;
+    padding: 0.8em 1.5em;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s; /* Added transform for scaling */
+    width: 100%;
+}
+
+.submit-button:hover {
+    background-color: #218838; /* Darker green on hover */
+    transform: scale(1.05); /* Slightly enlarge the button */
+}
+
+.submit-button:active {
+    transform: scale(0.95); /* Slightly shrink when clicked */
+}
+
+    </style>
+</head>
+<body>
+    <div class="deposit">
+        <form action="moneywithdraws" class="form-container">
+            <h2>Withdraw Money</h2>
+            <div class="form-group">
+                <input type="number" name="dmoney" placeholder="Enter amount" required>
+            </div>
+            <button type="submit" class="submit-button">Withdraw</button>
+        </form>
+    </div>
+</body>
+</html>

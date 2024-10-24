@@ -1,0 +1,151 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Header and Navigation */
+.header {
+    background-color: #004aad;
+    padding: 20px 0;
+    color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+.logo {
+    float: left;
+    font-size: 1.8em;
+    font-weight: bold;
+}
+
+.navbar {
+    float: right;
+    margin-top:22px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar li {
+    margin-left: 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px;
+    transition: background-color 0.3s ease;
+}
+.navbar .active{
+    background-color: #ffa500;
+    border-radius: 5px;
+
+}
+.navbar .active:hover{
+    background-color: #e69500;
+    color:white;
+}
+.navbar .btn-login:hover{
+    background-color: rgb(211, 32, 32);
+    color: white;
+}
+
+.navbar a:hover {
+    background-color: white;
+    color: #0055a5;
+    border-radius: 5px;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #f0f4f9;
+    padding: 100px 0;
+    text-align: center;
+    color: #004aad;
+    margin-top: 80px;
+}
+
+.hero h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 40px;
+}
+
+.cta-button {
+    background-color: #fdc40a;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    font-weight: 520;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #ffa500;
+}
+
+/* Banking Options Section */
+.banking-options {
+    background-color: #ffffff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.banking-options .button {
+    background-color: #004aad;
+    color: white;
+    width: 300px;
+    padding: 15px 30px;
+    margin: 20px;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    transition: background-color 0.3s ease;
+}
+.banking-options .userpic .pics{
+    margin-left: -30px;
+    border-radius: 120%;
+}
+.banking-options .pics{
+    width: 100px;
+    border-radius:100%;
+    margin-left: -20px;
+    margin-top: 30px;
+}
+.banking-options .button:hover {
+    background-color: #002f6c;
+}
+
+/* Footer */
+.footer {
+    background-color: #004aad;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    bottom: 0;
+}

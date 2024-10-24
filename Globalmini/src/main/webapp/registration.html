@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" type="text/css" href="registration_css.css">
+    <link rel="stylesheet" type="text/css" href="bankheaderfot.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="logo">Global Bank</h1>
+            
+        </div>
+    </header>
+
+    <div class="registrationcontainer">
+        <h2>Registration Form</h2>
+        <form action="Registeration">
+            <div class="form-group">
+                <label for="firstname">First Name</label>
+                <input type="text" id="firstname" name="firstname" placeholder="Enter Full Name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="lastname">Last Name</label>
+                <input type="text" id="lastname" name="lastname" placeholder="Enter Surname" required>
+            </div>
+
+            <div class="form-group">
+                <label for="username">User Name</label>
+                <input type="text" id="username" name="username" placeholder="Enter Username" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Enter Email" required>
+            </div>
+
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" placeholder="Enter Password" required>
+            </div>
+
+            <div class="form-group">
+                <label for="pin">Account Pin</label>
+                <input type="number" id="pin" name="pin" placeholder="Enter Account Pin Number" required>
+            </div>
+
+            <div class="form-group">
+                <label for="dob">Date Of Birth</label>
+                <input type="date" id="dob" name="dob" required>
+            </div>
+
+            <div class="form-group">
+                <label for="address">Address</label>
+                <input type="text" id="address" name="address" placeholder="Address" required>
+            </div>
+
+            <div class="form-group">
+                <label for="phoneno">Phone Number</label>
+                <input type="tel" id="phoneno" name="phoneno" pattern="[0-9]{10}" placeholder="Phone Number" required>
+            </div>
+
+            <div class="form-group">
+                <label for="district">District</label>
+                <input type="text" id="district" name="district" placeholder="Enter District" required>
+            </div>
+
+            <div class="form-group">
+                <label for="state">State</label>
+                <input type="text" id="state" name="state" placeholder="Enter State" required>
+            </div>
+
+            <div class="form-group">
+                <label for="pincode">Pincode</label>
+                <input type="number" id="pincode" name="pincode"  placeholder="Enter Pincode">
+            </div>
+
+            <div class="button-group">
+                <button type="submit" class="btn-submit">Register</button>
+                <button type="reset" class="btn-reset">Reset</button>
+            </div>
+        </form>
+    </div>
+
+    <footer class="footer">
+        <p>&copy; 2024 Global Bank. All rights reserved.</p>
+        <p>123 Bank Street, Financial City, India</p>
+    </footer>
+</body>
+</html>
